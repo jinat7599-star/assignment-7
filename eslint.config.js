@@ -14,6 +14,7 @@ const mainConfig = {
     globals: {
       ...browserGlobals.browser,
     },
+    
     parserOptions: {
       ecmaVersion: 'latest',
       sourceType: 'module',

@@ -8,7 +8,6 @@ import "./index.css";
  
 const rootElement = document.getElementById("root");
 const appRoot = createRoot(rootElement);
-
 appRoot.render(
   <StrictMode>
     <App />

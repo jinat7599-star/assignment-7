@@ -23,7 +23,7 @@ const mainConfig = {
       },
     },
   },
-  
+
   plugins: {
     'react-hooks': hooksPlugin,
     'react-refresh': refreshPlugin,
@@ -35,7 +35,6 @@ const mainConfig = {
     'no-unused-vars': ['error', { varsIgnorePattern: '^[A-Z_]' }],
   },
 };
-
 export default defineConfig([
   ignoreDist,
   mainConfig,

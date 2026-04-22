@@ -8,7 +8,6 @@ import Timeline from "./pages/Timeline";
 import Stats from "./pages/Stats";
 import NotFound from "./pages/NotFound";
 
- 
 const appRoutes = [
   {
     path: "/",

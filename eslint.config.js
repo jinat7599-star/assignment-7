@@ -14,7 +14,7 @@ const mainConfig = {
     globals: {
       ...browserGlobals.browser,
     },
-    
+
     parserOptions: {
       ecmaVersion: 'latest',
       sourceType: 'module',
@@ -23,6 +23,7 @@ const mainConfig = {
       },
     },
   },
+  
   plugins: {
     'react-hooks': hooksPlugin,
     'react-refresh': refreshPlugin,
